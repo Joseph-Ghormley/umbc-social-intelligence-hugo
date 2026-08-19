@@ -5,14 +5,18 @@ summary: ''
 type: landing
 
 sections:
-  - block: markdown
+  - block: hero
+    id: intro
     content:
-      title: 'Research Lab'
-      subtitle: ''
+      title: Research Lab
       text: |-
-        Welcome to our research lab website.
+        Advancing research through collaboration, innovation, and discovery.
 
-        Explore our research, current projects, team members, and opportunities to join the lab.
-    design:
-      columns: '1'
+        Explore our research areas, current projects, team, and opportunities to join the lab.
+      primary_action:
+        text: Explore Research
+        url: /research/
+      secondary_action:
+        text: View Projects
+        url: /projects/
 ---
